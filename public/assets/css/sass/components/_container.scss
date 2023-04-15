@@ -1,0 +1,20 @@
+// --- Container
+.container{
+	// --- Top Bar
+	.top_bar{
+		background-color: $primary;
+		height: var(--topbar-height);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		p{
+			font-size: 14px;
+			color: $cyan;
+
+			span{
+				font-weight: 600;
+			}
+		}
+	}
+}
